@@ -1,5 +1,5 @@
 <script context="module">
-export const preload = () => {};
+  export const preload = () => {};
 </script>
 
 <script>
@@ -14,6 +14,7 @@ import {
   Divider,
   Icon,
   Footer
+
 } from "svelte-materialify";
 
 let mini = true;
@@ -60,10 +61,10 @@ $: path = $page.path.slice(1);
         <ListItem>
           <span slot="prepend" class="ml-n2">
             <Avatar size="{40}">
-              <img src="//picsum.photos/200" alt="profile" />
+              <img src="https://hsiehlab.imgix.net/Nikolas-Merlock.jpg?auto=format&auto=enhance&auto=compress&w=40" alt="profile" />
             </Avatar>
           </span>
-          Adam Manuel
+          Nik Merlock
         </ListItem>
         <Divider />
         <List dense nav>
