@@ -1,6 +1,5 @@
 <h1 align="center">🌐 Nik Merlock's Opinionated Sapper Template</h1>
 
-Forked from babichjacob [@babichjacob](https://github.com/babichjacob)'s [`Opinionated Sapper`](https://github.com/babichjacob/sapper-firebase-typescript-graphql-tailwindcss-actions-template)
 
 - [Sapper for Svelte](https://sapper.svelte.dev/)
   - [Official VS Code Extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
@@ -152,3 +151,6 @@ This project base comes with [source maps](https://blog.teamtreehouse.com/introd
      run: "rm __sapper__/export/graphql"
    ```
    task in `.github/workflows/build-and-deploy.yml`
+
+##
+Forked from babichjacob [@babichjacob](https://github.com/babichjacob)'s [`Opinionated Sapper`](https://github.com/babichjacob/sapper-firebase-typescript-graphql-tailwindcss-actions-template)
